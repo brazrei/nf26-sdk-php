@@ -1,0 +1,61 @@
+{
+    "name": "nf26/sdk-php",
+    "description": "SDK PHP para integração com API NF26 - Compatível com CloudDFE SDK",
+    "type": "library",
+    "keywords": [
+        "nfe",
+        "nf-e",
+        "nota-fiscal",
+        "nf26",
+        "sefaz",
+        "fiscal",
+        "brasil",
+        "api"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "NF26",
+            "email": "suporte@nf26.cloud",
+            "homepage": "https://nf26.cloud"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-json": "*",
+        "ext-curl": "*",
+        "ext-openssl": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CashNFe\\SdkPHP\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CashNFe\\SdkPHP\\Tests\\": "tests/"
+        }
+    },
+    "support": {
+        "email": "suporte@nf26.cloud",
+        "issues": "https://github.com/brazrei/nf26-sdk-php/issues",
+        "docs": "https://nf26.cloud/docs",
+        "source": "https://github.com/brazrei/nf26-sdk-php"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/brazrei/nf26-sdk-php"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}
+

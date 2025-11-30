@@ -1,0 +1,14 @@
+/vendor/
+composer.lock
+.idea/
+.vscode/
+*.log
+.env
+.DS_Store
+.token
+test-nfe-*.xml
+DANFE*.pdf
+
+# Arquivos temporários de teste
+*.tmp
+*.backup
