@@ -1,6 +1,7 @@
 {
     "name": "nf26/sdk-php",
     "description": "SDK PHP para integração com API NF26 - Compatível com CloudDFE SDK",
+    "version": "1.0.1",
     "type": "library",
     "keywords": [
         "nfe",
